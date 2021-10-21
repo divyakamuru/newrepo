@@ -1,4 +1,4 @@
-echo -n "enter  a year: "
+echo -n "enter year: "
 read year_checker
 if [[ exp $year-checker%4 -eq 0  && $year-checker%100 -ne 0 || $year%400 ]]
 then 
